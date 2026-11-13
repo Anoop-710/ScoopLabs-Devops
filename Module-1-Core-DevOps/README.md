@@ -1,1 +1,1 @@
-![Devops lifecycle](./Devops lifecycle.drawio.svg)
+![Devops lifecycle](./assets/devops-lifecycle.svg)
