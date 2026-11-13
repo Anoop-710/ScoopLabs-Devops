@@ -1,0 +1,18 @@
+● Detailed Description: Understand the continuous nature of DevOps.
+Traditional approaches like waterfall methods works in linearly. The project is marked as complete once it's released whereas in Devops even after the production , the application is continuously monitored , record logs which can be used to improve the application which leads to next round of planning , developing and so on which runs on a loop represents the continuous nature of Devops.
+
+● Concept Task: Define the 8 stages of the DevOps lifecycle (Plan, Code, Build, Test,
+Release, Deploy, Operate, Monitor).
+
+Plan	Decide what to build next, using requirements and monitoring feedback, and break it into tasks.
+Code	Write and version the source code in Git, with reviews on GitHub.
+Build	Compile and bundle the code into a build artifact.
+Test	Run automated checks (unit, integration, end-to-end) to catch bugs early.
+Release	Tag a version and approve the tested artifact as ready to ship.
+Deploy	Install the approved version in staging or production.
+Operate	Run, scale and maintain the infrastructure and configuration, and respond to incidents.
+Monitor	Track health, logs and errors, and feed what’s learned back into Plan.
+
+● Hands-on Task: Create a visual diagram of the infinity loop using a free tool like
+Draw.io. Write a one-sentence description for each stage.
+Added in readme file as mentioned in assignment
