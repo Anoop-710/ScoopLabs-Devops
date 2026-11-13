@@ -1,0 +1,26 @@
+● Detailed Description: Understand how DevOps extends Agile principles.
+
+DevOps extends Agile principle as follows:
+    - Better team collaboration between the development and operation teams.
+    - Reduce the time between code commit and deployment through automation which helps in faster shipping and quick feedback.
+    - Catches bugs quicker through CI/CD pipelines and monitoring.
+
+● Concept Task: Create a comparison table outlining 3 key differences between Agile
+(focusing on software development) and DevOps (focusing on deployment and
+operations).
+
+Agile
+Planning and building software.
+Collaboration between developers, customers, business
+Feedback comes from	customers and stakeholders (sprint reviews)
+
+DevOps
+Building, releasing, running and monitoring it
+Collaboration between developers and operations
+Feedback comes from pipelines and live monitoring (test results, logs, alerts)
+
+
+● Hands-on Task: Write a brief scenario explaining a communication bottleneck that
+Agile solves, and a deployment bottleneck that DevOps solves.
+Agile bottleneck (communication): a team builds for 12 months against a fixed spec and the client rejects the result. Agile fixes this with two-week sprints and demos, so feedback arrives early.
+DevOps bottleneck (deployment): developers hand finished code to a separate ops team, wait two weeks for a release slot, and the release fails because the environments differ. DevOps fixes this with shared dev-ops ownership, an automated CI/CD pipeline, and containers that make every environment identical, so releases are fast, repeatable and safe.

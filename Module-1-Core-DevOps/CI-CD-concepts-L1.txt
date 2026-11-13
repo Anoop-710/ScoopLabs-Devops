@@ -1,0 +1,29 @@
+● Detailed Description: Differentiate between Continuous Integration, Continuous
+Delivery, and Continuous Deployment.
+
+Continuous Integration is a process of integrating code changes into shared repository.
+Developers merge small changes into shared branch often, every merge automatically builds the code, run the tests and checks for errors automatically.
+Continuous Delivery is when the application is ready to be deployed to staging or production environment. This requires manual approval before deploying to production.
+Continuous Development is when the application is automatically deployed to production automatically without manual approval
+
+
+
+● Concept Task: Write a brief comparison highlighting the manual vs. automated
+approval steps in Delivery vs. Deployment.
+
+The manual process in continuous delivery involves human approval before releasing the build product to production. This is useful in high risk applications like banking , E-commerce etc. where transactions are involved.
+The automated process in continuous development automatically deploys to production without any human approval once the checks in the pipelines are passed. This is useful in low risk apps like a blog or portfolio etc.
+
+
+
+● Hands-on Task: Map out a theoretical CI/CD pipeline for a simple web application,
+listing the tools you might use at each step.
+
+Source code - Track and host the code - Git and GitHub
+Build - Compile the code - npm, Jenkins
+Test - Test the code for errors - JUnit, Selenium, Jest
+Package - Create deployable image - Docker
+Staging - Deploy to production like environment - Kubernetes, Render/Vercel
+Approval gate - Deliver-Human approval - Required Reviewers like in GitHub Actions , Jenkins input
+Production - Release to users - kubernetes, Render/Vercel
+Monitor - Check for health and logs - Grafana, Splunk, Prometheus, Datadog.
